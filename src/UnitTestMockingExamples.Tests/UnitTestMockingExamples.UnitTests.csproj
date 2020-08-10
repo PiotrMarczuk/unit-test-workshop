@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="_NCrunch_UnitTestMockingExamples\**" />
+    <EmbeddedResource Remove="_NCrunch_UnitTestMockingExamples\**" />
+    <None Remove="_NCrunch_UnitTestMockingExamples\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.7.0" />
+    <PackageReference Include="NSubstitute" Version="4.2.2" />
+    <PackageReference Include="NUnit" Version="3.12.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UnitTestMockingExamples.BusinessLogic\UnitTestMockingExamples.BusinessLogic.csproj" />
+    <ProjectReference Include="..\UnitTestMockingExamples.Repository\UnitTestMockingExamples.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
