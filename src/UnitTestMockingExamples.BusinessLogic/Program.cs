@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace UnitTestMockingExamples
+namespace UnitTestMockingExamples.BusinessLogic
 {
     class Program
     {
