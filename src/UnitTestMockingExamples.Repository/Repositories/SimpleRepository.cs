@@ -32,7 +32,7 @@ namespace UnitTestMockingExamples.Repository.Repositories
             return simpleWithFullSetOfData;
         }
 
-        public async Task<SimpleWithLuckyNumbers> GetSimpleWithLuckyNumbers(int id)
+        public async Task<SimpleWithLuckyNumbers> GetSimpleWithLuckyNumbersAsync(int id)
         {
             var simpleWithLuckyNumbers = await _context
                 .SimpleDbModels
@@ -47,7 +47,7 @@ namespace UnitTestMockingExamples.Repository.Repositories
             return simpleWithLuckyNumbers;
         }
 
-        public async Task<SimpleWithName> GetSimpleWithName(int id)
+        public async Task<SimpleWithName> GetSimpleWithNameAsync(int id)
         {
             var simpleWithLuckyNumbers = await _context
                 .SimpleDbModels

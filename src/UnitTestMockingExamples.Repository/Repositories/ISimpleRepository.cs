@@ -7,8 +7,8 @@ namespace UnitTestMockingExamples.Repository.Repositories
     {
         Task<SimpleWithFullSetOfData> GetSimpleWithFullSetOfDataAsync(int id);
 
-        Task<SimpleWithLuckyNumbers> GetSimpleWithLuckyNumbers(int id);
+        Task<SimpleWithLuckyNumbers> GetSimpleWithLuckyNumbersAsync(int id);
 
-        Task<SimpleWithName> GetSimpleWithName(int id);
+        Task<SimpleWithName> GetSimpleWithNameAsync(int id);
     }
 }

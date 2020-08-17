@@ -25,12 +25,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88a94342-05b4-48e0-8b8e-75c5ba95bf97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/UnitTestMockingExamples.BusinessLogic/Services/ILuckyNumberService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UnitTestMockingExamples.BusinessLogic/Services/LuckyNumberService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UnitTestMockingExamples.Tests/LuckyNumberServiceTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnitTestMockingExamples/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnitTestMockingExamples/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnitTestMockingExamples/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnitTestMockingExamples/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTestMockingExamples.BusinessLogic/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTestMockingExamples.BusinessLogic/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTestMockingExamples.BusinessLogic/Services/ILuckyNumberService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTestMockingExamples.BusinessLogic/Services/ILuckyNumberService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTestMockingExamples.BusinessLogic/Services/LuckyNumberService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTestMockingExamples.BusinessLogic/Services/LuckyNumberService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTestMockingExamples.Tests/LuckyNumberServiceTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTestMockingExamples.Tests/LuckyNumberServiceTests.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +45,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/UnitTestMockingExamples.BusinessLogic/Program.cs" />
-        <option value="$PROJECT_DIR$/UnitTestMockingExamples.Tests/LuckyNumberServiceTests.cs" />
+        <option value="$PROJECT_DIR$/UnitTestMockingExamples.BusinessLogic/Services/ILuckyNumberService.cs" />
         <option value="$PROJECT_DIR$/UnitTestMockingExamples.BusinessLogic/Services/LuckyNumberService.cs" />
+        <option value="$PROJECT_DIR$/UnitTestMockingExamples.Tests/LuckyNumberServiceTests.cs" />
       </list>
     </option>
   </component>
@@ -126,7 +125,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597667523809</updated>
-      <workItem from="1597667542307" duration="1719000" />
+      <workItem from="1597667542307" duration="5165000" />
     </task>
     <servers />
   </component>
