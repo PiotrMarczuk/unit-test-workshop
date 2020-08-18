@@ -101,12 +101,10 @@ namespace UnitTestMockingExamples.UnitTests
             }
             catch (ArgumentException)
             {
-                // suppress
+                _logger
+                    .Received()
+                    .LogError($"{parameter} should be greater than zero");
             }
-            
-            _logger
-                .Received()
-                .LogError($"{parameter} should be greater than zero");
         }
 
         [Test]
@@ -137,6 +135,27 @@ namespace UnitTestMockingExamples.UnitTests
             // ASSERT
             
             TestHelper.AreEqualByJson(expected, result);
+        }
+        
+        [Test]
+        public void When_called_GetSimpleWithLuckyNumbersAsync_with_id_0_should_not_throw_exception()
+        {
+            // ARRANGE
+            const int luckyId = 0;
+            
+            var dbMock = new SimpleWithLuckyNumbers()
+            {
+                Id = 1,
+                LuckyNumbers = new List<int> {1, 2}
+            };
+
+            _repository
+                .GetSimpleWithLuckyNumbersAsync(luckyId)
+                .Returns(dbMock);
+            
+            // ACT & ASSERT
+            
+            Assert.DoesNotThrowAsync(() => _sut.AreLuckyNumbersNotEmptyAsync(luckyId));
         }
     }
 

@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="RIDER_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$/../.." />
+    <content url="file://$MODULE_DIR$/../..">
+      <excludeFolder url="file://$MODULE_DIR$/../../.vs" />
+      <excludeFolder url="file://$MODULE_DIR$/../../UnitTestMockingExamples.BusinessLogic/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../UnitTestMockingExamples.BusinessLogic/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../UnitTestMockingExamples.Database/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../UnitTestMockingExamples.Database/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../UnitTestMockingExamples.Repository/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../UnitTestMockingExamples.Repository/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../UnitTestMockingExamples.Tests/.vs" />
+      <excludeFolder url="file://$MODULE_DIR$/../../UnitTestMockingExamples.Tests/_NCrunch_UnitTestMockingExamples" />
+      <excludeFolder url="file://$MODULE_DIR$/../../UnitTestMockingExamples.Tests/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../UnitTestMockingExamples.Tests/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../_NCrunch_UnitTestMockingExamples" />
+    </content>
     <content url="file://$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.7.0/build/netcoreapp2.1" />
     <content url="file://$USER_HOME$/.nuget/packages/microsoft.testplatform.testhost/16.7.0/build/netcoreapp2.1/x64/testhost.dll" />
     <content url="file://$USER_HOME$/.nuget/packages/microsoft.testplatform.testhost/16.7.0/build/netcoreapp2.1/x64/testhost.exe" />

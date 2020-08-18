@@ -26,8 +26,6 @@
   <component name="ChangeListManager">
     <list default="true" id="88a94342-05b4-48e0-8b8e-75c5ba95bf97" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnitTestMockingExamples/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnitTestMockingExamples/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTestMockingExamples.BusinessLogic/Services/ILuckyNumberService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTestMockingExamples.BusinessLogic/Services/ILuckyNumberService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTestMockingExamples.BusinessLogic/Services/LuckyNumberService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTestMockingExamples.BusinessLogic/Services/LuckyNumberService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitTestMockingExamples.Tests/LuckyNumberServiceTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTestMockingExamples.Tests/LuckyNumberServiceTests.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,14 +37,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Projects/unit-test-workshop/src/UnitTestMockingExamples.Repository/Repositories/ISimpleRepository.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Projects/unit-test-workshop/src/UnitTestMockingExamples.BusinessLogic/Services/LuckyNumberService.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Projects/unit-test-workshop/src/UnitTestMockingExamples.BusinessLogic/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Projects/unit-test-workshop/src/UnitTestMockingExamples.BusinessLogic/Services/ILuckyNumberService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Projects/unit-test-workshop/src/UnitTestMockingExamples.Tests/LuckyNumberServiceTests.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Projects/unit-test-workshop/src/UnitTestMockingExamples.BusinessLogic/Services/LuckyNumberService.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Projects/unit-test-workshop/src/UnitTestMockingExamples.Tests/LuckyNumberServiceTests.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Projects/unit-test-workshop/src/UnitTestMockingExamples.Repository/Repositories/SimpleRepository.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -135,6 +127,8 @@
       <option name="presentableId" value="Default" />
       <updated>1597667523809</updated>
       <workItem from="1597667542307" duration="9068000" />
+      <workItem from="1597678880314" duration="320000" />
+      <workItem from="1597731531424" duration="390000" />
     </task>
     <task id="LOCAL-00001" summary="Added two tests to newly created method">
       <created>1597672801750</created>
@@ -143,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597672801750</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added more tests for LuckyNumberService.cs">
+      <created>1597679190831</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597679190831</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,11 +160,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Added two tests to newly created method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added two tests to newly created method" />
+    <MESSAGE value="Added more tests for LuckyNumberService.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more tests for LuckyNumberService.cs" />
   </component>
   <component name="WindowStateProjectService">
     <state x="277" y="62" key="SettingsEditor" timestamp="1597673785378">
