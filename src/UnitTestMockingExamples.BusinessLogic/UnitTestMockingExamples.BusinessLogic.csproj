@@ -14,4 +14,8 @@
     <ProjectReference Include="..\UnitTestMockingExamples.Repository\UnitTestMockingExamples.Repository.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Services" />
+  </ItemGroup>
+
 </Project>
