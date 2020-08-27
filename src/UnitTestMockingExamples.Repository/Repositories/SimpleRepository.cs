@@ -49,7 +49,7 @@ namespace UnitTestMockingExamples.Repository.Repositories
 
         public async Task<SimpleWithName> GetSimpleWithNameAsync(int id)
         {
-            var simpleWithLuckyNumbers = await _context
+            var simpleWithName = await _context
                 .SimpleDbModels
                 .Select(x =>
                     new SimpleWithName
@@ -59,7 +59,7 @@ namespace UnitTestMockingExamples.Repository.Repositories
                     }
                 ).SingleOrDefaultAsync(x => x.Id == id);
 
-            return simpleWithLuckyNumbers;
+            return simpleWithName;
         }
     }
 }
